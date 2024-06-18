@@ -1,0 +1,72 @@
+QWidget{
+	background-color: #BCCCDC;
+	color: #102A43;
+	font: 12pt "Calibri";
+}
+
+.FinanceManager {
+    width: 100%;
+}
+
+#club {
+    font: 16pt "Calibri";
+}
+
+QPushButton, QComboBox, QDateEdit, QSpinBox, QLineEdit, QTabBar:tab, QHeaderView::section, QTreeWidget {
+	background-color: #9FB3C8;
+}
+
+QCalendarWidget QWidget {
+    alternate-background-color: #9FB3C8;
+}
+
+QLabel {
+	width: 100px;
+	height: 25px;
+}
+
+QPushButton {
+	width: 125px;
+	height: 30px;
+	max-width: 125px;
+	max-height: 30px;
+	margin: 0px 5px;
+	border-radius: 10px;
+}
+
+#add_row, #remove_row {
+    width: 40;
+    height: 30px;
+}
+
+QPushButton:hover, QTabBar:tab:selected{
+	background-color: #829AB1;
+	border: 2px solid #9FB3C8;
+}
+
+QDateEdit, QHeaderView::section, QComboBox {
+	border: 1px solid #829AB1;
+}
+
+QTabBar:tab{
+    margin-right: 5px;
+	width: 120px;
+	height: 30px;
+}
+
+QHeaderView::section{
+	font-size: 14px;
+}
+
+QTreeWidget{
+	alternate-background-color: #829AB1;
+}
+
+QTableWidget {
+	color: white;
+	gridline-color: #102A43;
+}
+
+Line {
+	background-color: #102A43;
+}

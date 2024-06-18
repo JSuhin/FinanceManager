@@ -1,0 +1,46 @@
+QWidget{
+	font: 12pt "Calibri";
+}
+
+.FinanceManager {
+    width: 100%;
+}
+
+#club {
+    font: 16pt "Calibri";
+}
+
+QLabel {
+	width: 100px;
+	height: 25px;
+}
+
+QPushButton {
+	width: 125px;
+	height: 30px;
+	max-width: 125px;
+	max-height:30px;
+	margin: 0px 5px;
+}
+
+#add_row, #remove_row {
+    width: 40;
+    height: 30px;
+}
+
+QTabBar:tab {
+    margin-right: 5px;
+	width: 30px;
+	height: 71px;
+	font: 10pt "Calibri";
+	font-weight: bold;
+}
+
+QTabBar:tab:selected {
+    border: 1px solid grey;
+    border-bottom: 2px solid red;
+}
+
+QTabWidget::pane {
+    border: none;
+}

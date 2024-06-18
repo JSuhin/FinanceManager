@@ -1,0 +1,51 @@
+{
+  "šifre":
+  {
+    "prihodi":
+    {
+      "1": "Prijenos sredstava iz prošle godine",
+      "2": "Dotacija Karlovacke športske zajednice",
+      "3": "Dotacija Zajednice športova Karlovacke županije",
+      "4": "Dotacija Gimnastičkog saveza Karlovacke županije",
+      "5": "Prihodi od samostalne djelatnosti",
+      "6": "Kotizacija za Ljetni gimnastički kamp Selce",
+      "7": "Prihodi od clanarine",
+      "8": "Prihodi od participacije clanova - oprema, natjecanja",
+      "9": "Prihodi od sponzora i donatora",
+      "10": "Prihodi od projekata",
+      "11": "Stipendija grada Karlovca",
+      "12": "Ostali prihodi"
+    },
+    "rashodi":
+    {
+      "1": "Pripreme sportaša",
+      "2": "Troškovi natjecanja, liječnički pregledi",
+      "3": "Školovanje - treneri, suci",
+      "4": "Plaća, prijevoz i ostala davanja - treneri profesionalci",
+      "5": "Naknada za stručni rad - honorari",
+      "6": "Stipendije članova",
+      "7": "Članarine i registracija - HGS, GSKŽ",
+      "8": "Platni promet",
+      "9": "Uredski materijal, telefon, pošta, toneri",
+      "10": "Športska oprema - magnezij, trenirke, dresovi",
+      "11": "Nabava i renoviranje sprava i trenažera",
+      "12": "Promidžbeno - marketinške aktivnosti",
+      "13": "Administrativno- informatički rad, računovodstvo",
+      "14": "Informatička oprema",
+      "15": "Reprezentacija",
+      "16": "Stimulacija kvalitete",
+      "17": "Troškovi akademije",
+      "18": "Osiguranje članova",
+      "19": "Zakup poslovnog prostora",
+      "20": "Ostali troškovi",
+      "21": "Isplata blagajne"
+    }
+  },
+  "database_filename": "GKSokol.sqlite",
+  "log_filename": "log.txt",
+  "log_level": "DEBUG",
+  "log_format": "%(asctime)s - %(levelname)s :: %(message)s",
+  "icon_img": "bin/AppIcon.png",
+  "version": "3.0",
+  "last_modified": "28.12.2022."
+}

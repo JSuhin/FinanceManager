@@ -1,0 +1,36 @@
+Finance Manager
+Verzija: 3.0
+Izradio: Jurica Suhin
+Zadnja izmjena: 21.6.2023.
+
+DOSTUPNE FUNKCIJE:
+    0.  Dashboard
+    1.  Tablica prihoda
+    2.  Tablica rashoda
+    3.  Tablica za unos prihoda i rashoda
+    4.  Financijsko izvješće
+    5.  Knjiga ulaznih i izlaznih računa
+
+1. TABLICA PRIHODA
+Tablica prihoda služi za pojedinačni unos i pregled prihoda. Prikazani prihodi odnose se na odabrano razdoblje. Ukoliko nismo odabrali
+
+2. TABLICA RASHODA
+
+3. TABLICA ZA UNOS PRIHODA I RASHODA
+
+4. FINANCIJSKO IZVJEŠĆE
+
+5. KNJIGA ULAZNIH I IZLAZNIH RAČUNA
+
+HOT KEYS:
+F1  - Pomoć
+F2  - Lista šifri prihoda i rashoda
+F3  - Log Viewer
+F5  - Ponovno pokretanje aplikacije (Admin)
+F9  - Promjena vrste korisnika
+F10 - Slika pokretačkog prozora
+F11 - Prozor za povratak datoteka (Admin)
+F12 - Postavke aplikacije (Admin)
+
+PROMJENA PRIKAZA:
+CTRL + [F1], ..., [F7]

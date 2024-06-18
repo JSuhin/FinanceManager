@@ -1,0 +1,34 @@
+Finance Manager - version description
+
+-- v3.0 -- 1.6.2023.
+Dashboard
+Income
+Outcome
+Report
+Backup files on Dropbox
+Retrive files from Dropbox
+Clean code
+User Type limitations
+
+-- v3.1 -- 1.1.2024.
+New Features:
+    Financial plan
+    Graphics
+    Bills
+
+New functions:
+    Initialization check
+
+Bug fix:
+    Calendar
+
+
+-- v3.2 --
+New Features:
+    Employs tab
+
+Notes:
+ - koristiti funkciju timeit
+ - koristiti NumPy array umjesto listi
+ - koristiti generatore umjesto list comprehensons
+

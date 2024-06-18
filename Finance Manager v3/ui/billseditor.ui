@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1087</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(&quot;E:\\PythonProject\\pyqt - Finance Statistic v1\\bin\\logo.png&quot;);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="title">
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Evidencija ulaznih i izlaznih računa</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Vrsta računa:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="combo_table">
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Svi računi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ulazni računi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Izlazni računi</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Godina:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="year">
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="minimum">
+        <number>2023</number>
+       </property>
+       <property name="maximum">
+        <number>2050</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Traži:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="pattern">
+       <property name="minimumSize">
+        <size>
+         <width>500</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>TRAŽI</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>78</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_create">
+       <property name="text">
+        <string>NOVI RAČUN</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tree_bill">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Vrsta računa</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Broj računa</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Datum izdavanja</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Izdao</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Adresa</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Iznos</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Opis</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>TEST1</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>CFDFDV</string>
+      </property>
+      <property name="text">
+       <string>DATUM</string>
+      </property>
+      <property name="text">
+       <string>KUĆAN</string>
+      </property>
+      <property name="text">
+       <string>petra svačića</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TEST2</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>FVFDV2343</string>
+      </property>
+      <property name="text">
+       <string>DATUM</string>
+      </property>
+      <property name="text">
+       <string>sUHIN</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TEST3</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>234324234</string>
+      </property>
+      <property name="text">
+       <string>DATUM</string>
+      </property>
+      <property name="text">
+       <string>test</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TEST4</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>HR75SXSDCDSC</string>
+      </property>
+      <property name="text">
+       <string>DATUM</string>
+      </property>
+      <property name="text">
+       <string>test</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
