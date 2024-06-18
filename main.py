@@ -30,14 +30,13 @@ if __name__ == '__main__':
     logging.basicConfig(filename=FILE, level=LEVEL, format=FORMAT, datefmt="%Y-%m-%d %H:%M:%S")
 
     # Logging unhandled errors to file not console - commented for debugging
-    # sys.excepthook = excepthook
+    sys.excepthook = excepthook
 
     # Run app
     logging.info("Application started!")
     app = QApplication(sys.argv)
     window = UI()
     sys.exit(app.exec())
-
 
 # Bugs
 # TODO: Error report dialog

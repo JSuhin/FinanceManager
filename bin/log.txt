@@ -10646,3 +10646,7 @@ KeyboardInterrupt
 2024-05-25 17:23:47 - INFO :: Income Tree updated
 2024-05-25 17:25:23 - INFO :: Outcome ComboBox changed value
 2024-05-25 17:25:24 - INFO :: Outcome Tree updated
+2024-06-18 11:41:35 - INFO :: Application started!
+2024-06-18 11:41:38 - INFO :: User Interface loaded
+2024-06-18 11:41:40 - INFO :: Internet Access
+2024-06-18 11:43:22 - INFO :: QDialog cancel button pressed
