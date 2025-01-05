@@ -10650,3 +10650,254 @@ KeyboardInterrupt
 2024-06-18 11:41:38 - INFO :: User Interface loaded
 2024-06-18 11:41:40 - INFO :: Internet Access
 2024-06-18 11:43:22 - INFO :: QDialog cancel button pressed
+2024-06-18 13:52:47 - INFO :: Application started!
+2024-06-18 13:52:49 - INFO :: User Interface loaded
+2024-06-18 13:52:51 - INFO :: Internet Access
+2024-06-18 13:55:39 - INFO :: Application started!
+2024-06-18 13:55:41 - INFO :: User Interface loaded
+2024-06-18 13:55:42 - INFO :: Internet Access
+2024-07-02 16:11:37 - INFO :: Application started!
+2024-07-02 16:11:39 - INFO :: User Interface loaded
+2024-07-02 16:11:41 - INFO :: No Internet Access
+2024-07-02 16:16:57 - INFO :: Application started!
+2024-07-02 16:16:59 - INFO :: User Interface loaded
+2024-07-02 16:17:00 - INFO :: No Internet Access
+2024-07-02 16:17:22 - ERROR :: cannot access local variable 'token' where it is not associated with a value
+2024-07-02 16:17:32 - CRITICAL :: Critical error occurred!
+2024-07-02 16:17:32 - CRITICAL :: Traceback (most recent call last):
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\MyWidgets.py", line 199, in check_update
+    def check_update(self):
+    
+KeyboardInterrupt
+
+2024-07-02 16:18:46 - INFO :: Application started!
+2024-07-02 16:18:48 - INFO :: User Interface loaded
+2024-07-02 16:18:49 - INFO :: No Internet Access
+2024-07-02 16:18:55 - INFO :: Clicked - IZMIJENI
+2024-07-02 16:18:57 - INFO :: New income dialog closed
+2024-07-02 16:18:58 - INFO :: Clicked - IZMIJENI
+2024-07-02 16:18:59 - INFO :: New income dialog closed
+2024-07-02 16:19:09 - INFO :: Clicked - IZMIJENI
+2024-07-02 16:20:12 - INFO :: Application started!
+2024-07-02 16:20:13 - INFO :: User Interface loaded
+2024-07-02 16:20:14 - INFO :: No Internet Access
+2024-07-02 16:21:20 - INFO :: Application started!
+2024-07-02 16:21:22 - INFO :: User Interface loaded
+2024-07-02 16:21:23 - INFO :: No Internet Access
+2024-07-02 16:22:00 - INFO :: Login - User type: Admin
+2024-07-02 16:23:01 - CRITICAL :: Critical error occurred!
+2024-07-02 16:23:01 - CRITICAL :: Traceback (most recent call last):
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\UserInterface.py", line 1411, in action_set
+    download_database("/settings.db", "backup/backup_settings.db", token)
+                                                                   ^^^^^
+NameError: name 'token' is not defined. Did you mean: 'open'? Or did you forget to import 'token'
+
+2024-07-02 16:23:01 - CRITICAL :: Critical error occurred!
+2024-07-02 16:23:01 - CRITICAL :: Traceback (most recent call last):
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\UserInterface.py", line 1421, in action_task
+    download_database("/taskList.db", "backup/backup_taskList.db", token)
+                                                                   ^^^^^
+NameError: name 'token' is not defined. Did you mean: 'open'? Or did you forget to import 'token'
+
+2024-07-02 16:23:05 - INFO :: Setting Dialog closed
+2024-07-02 16:23:43 - INFO :: Application started!
+2024-07-02 16:23:45 - CRITICAL :: Critical error occurred!
+2024-07-02 16:23:45 - CRITICAL :: Traceback (most recent call last):
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\main.py", line 38, in <module>
+    window = UI()
+             ^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\UserInterface.py", line 48, in __init__
+    uic.loadUi("ui/manager.ui", self)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\load_ui.py", line 86, in loadUi
+    return DynamicUILoader(package).loadUi(uifile, baseinstance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\Loader\loader.py", line 62, in loadUi
+    return self.parse(filename)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 1014, in parse
+    self._handle_widget(ui_file.widget)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 842, in _handle_widget
+    self.traverseWidgetTree(el)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 512, in createLayout
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 555, in handleItem
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 280, in createWidget
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 512, in createLayout
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 555, in handleItem
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 280, in createWidget
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 280, in createWidget
+    self.traverseWidgetTree(elem)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 818, in traverseWidgetTree
+    handler(self, child)
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 503, in createLayout
+    if self.stack.topIsLayout():
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\venv\Lib\site-packages\PyQt6\uic\uiparser.py", line 134, in topIsLayout
+    def topIsLayout(self):
+    
+KeyboardInterrupt
+
+2024-11-22 14:20:28 - INFO :: Application started!
+2024-11-22 14:20:30 - INFO :: User Interface loaded
+2024-11-22 14:20:32 - INFO :: Internet Access
+2024-11-22 14:20:47 - INFO :: Login - User type: Admin
+2024-11-22 14:20:58 - INFO :: Settings saved to database
+2024-11-22 14:20:58 - INFO :: Reboot Finance Manager
+2024-11-22 14:20:59 - INFO :: User Interface loaded
+2024-11-22 14:21:00 - ERROR :: Reboot failed: no such table: bills
+2024-11-22 14:21:05 - INFO :: Application started!
+2024-11-22 14:21:07 - INFO :: User Interface loaded
+2024-11-22 14:21:07 - CRITICAL :: Critical error occurred!
+2024-11-22 14:21:07 - CRITICAL :: Traceback (most recent call last):
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\main.py", line 38, in <module>
+    window = UI()
+             ^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\UserInterface.py", line 76, in __init__
+    self.bill_editor = BillEditor(database=settings.get_setting("database"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\MyWidgets.py", line 293, in __init__
+    self.update_table(database_path=database, bill_type="All")
+  File "C:\PythonProjects\pyqt - Finance Statistic v1\MyWidgets.py", line 327, in update_table
+    cursor.execute(query)
+sqlite3.OperationalError: no such table: bills
+
+2024-11-22 14:21:19 - INFO :: Application started!
+2024-11-22 14:21:21 - INFO :: User Interface loaded
+2024-11-22 14:32:56 - INFO :: Application started!
+2024-11-22 14:32:58 - INFO :: User Interface loaded
+2024-11-22 14:33:00 - INFO :: Internet Access
+2024-11-22 14:33:42 - INFO :: Income ComboBox changed value
+2024-11-22 14:33:43 - INFO :: Income Tree updated
+2024-11-22 14:33:48 - INFO :: Clicked - IZMIJENI
+2024-11-22 14:33:57 - INFO :: New income dialog closed
+2024-11-22 14:34:00 - INFO :: Income ComboBox changed value
+2024-11-22 14:34:01 - INFO :: Income Tree updated
+2024-11-22 14:34:03 - INFO :: Income ComboBox changed value
+2024-11-22 14:34:04 - INFO :: Income Tree updated
+2024-11-22 14:34:06 - INFO :: Clicked - IZMIJENI
+2024-11-22 14:34:32 - INFO :: Income ComboBox changed value
+2024-11-22 14:34:33 - INFO :: Income Tree updated
+2024-11-22 14:35:00 - INFO :: Outcome ComboBox changed value
+2024-11-22 14:35:01 - INFO :: Outcome Tree updated
+2024-11-22 14:35:29 - INFO :: Export to Excel button clicked
+2024-11-22 14:35:48 - INFO :: Selected Excel file for writing data
+2024-11-22 14:39:54 - INFO :: Export to Excel button clicked
+2024-11-22 14:40:01 - INFO :: Selected Excel file for writing data
+2024-11-22 14:40:03 - INFO :: Data writen to Excel file
+2024-11-23 08:53:02 - INFO :: Application started!
+2024-11-23 08:53:04 - INFO :: User Interface loaded
+2024-11-23 08:53:05 - INFO :: No Internet Access
+2024-11-23 08:55:09 - INFO :: Login - User type: Admin
+2024-11-23 09:01:02 - INFO :: Income ComboBox changed value
+2024-11-23 09:01:03 - INFO :: Income Tree updated
+2024-11-23 09:01:04 - INFO :: Income ComboBox changed value
+2024-11-23 09:01:05 - INFO :: Income Tree updated
+2024-11-23 09:06:03 - INFO :: Income ComboBox changed value
+2024-11-23 09:06:04 - INFO :: Income Tree updated
+2024-11-23 09:06:18 - INFO :: Income ComboBox changed value
+2024-11-23 09:06:19 - INFO :: Income Tree updated
+2024-11-23 09:06:22 - INFO :: Income ComboBox changed value
+2024-11-23 09:06:23 - INFO :: Income Tree updated
+2024-11-23 09:06:41 - INFO :: Income ComboBox changed value
+2024-11-23 09:06:41 - INFO :: Income Tree updated
+2024-11-23 09:06:45 - INFO :: Income ComboBox changed value
+2024-11-23 09:06:46 - INFO :: Income Tree updated
+2024-11-23 09:07:00 - INFO :: Income ComboBox changed value
+2024-11-23 09:07:01 - INFO :: Income Tree updated
+2024-11-23 09:07:37 - INFO :: Income ComboBox changed value
+2024-11-23 09:07:38 - INFO :: Income Tree updated
+2024-11-23 09:07:39 - INFO :: Income ComboBox changed value
+2024-11-23 09:07:40 - INFO :: Income Tree updated
+2024-11-23 09:07:49 - INFO :: Income ComboBox changed value
+2024-11-23 09:07:50 - INFO :: Income Tree updated
+2024-11-23 09:08:15 - INFO :: Income ComboBox changed value
+2024-11-23 09:08:16 - INFO :: Income Tree updated
+2024-11-23 09:08:19 - INFO :: Income ComboBox changed value
+2024-11-23 09:08:20 - INFO :: Income Tree updated
+2024-11-23 09:08:22 - INFO :: Income ComboBox changed value
+2024-11-23 09:08:22 - INFO :: Income Tree updated
+2024-11-23 09:08:39 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:08:40 - INFO :: Outcome Tree updated
+2024-11-23 09:08:41 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:08:42 - INFO :: Outcome Tree updated
+2024-11-23 09:08:48 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:08:49 - INFO :: Outcome Tree updated
+2024-11-23 09:09:13 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:14 - INFO :: Outcome Tree updated
+2024-11-23 09:09:25 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:26 - INFO :: Outcome Tree updated
+2024-11-23 09:09:27 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:27 - INFO :: Outcome Tree updated
+2024-11-23 09:09:32 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:32 - INFO :: Outcome Tree updated
+2024-11-23 09:09:33 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:33 - INFO :: Outcome Tree updated
+2024-11-23 09:09:34 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:35 - INFO :: Outcome Tree updated
+2024-11-23 09:09:43 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:09:43 - INFO :: Outcome Tree updated
+2024-11-23 09:11:05 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:05 - INFO :: Outcome Tree updated
+2024-11-23 09:11:07 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:07 - INFO :: Outcome Tree updated
+2024-11-23 09:11:08 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:09 - INFO :: Outcome Tree updated
+2024-11-23 09:11:10 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:10 - INFO :: Outcome Tree updated
+2024-11-23 09:11:26 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:26 - INFO :: Outcome Tree updated
+2024-11-23 09:11:26 - INFO :: Outcome ComboBox changed value
+2024-11-23 09:11:27 - INFO :: Outcome Tree updated
+2024-11-30 10:21:42 - INFO :: Application started!
+2024-11-30 10:21:44 - INFO :: User Interface loaded
+2024-11-30 10:21:46 - INFO :: Internet Access
+2024-11-30 10:22:04 - INFO :: Export to Excel button clicked
+2024-11-30 10:22:14 - INFO :: QDialog cancel button pressed
+2024-11-30 12:08:03 - INFO :: Application started!
+2024-11-30 12:08:05 - INFO :: User Interface loaded
+2024-11-30 12:08:06 - INFO :: Internet Access
+2024-11-30 12:08:17 - INFO :: Income ComboBox changed value
+2024-11-30 12:08:18 - INFO :: Income Tree updated
+2024-11-30 12:09:29 - INFO :: Income ComboBox changed value
+2024-11-30 12:09:30 - INFO :: Income Tree updated
+2024-11-30 12:09:33 - INFO :: Income ComboBox changed value
+2024-11-30 12:09:33 - INFO :: Income Tree updated
+2024-11-30 12:09:43 - INFO :: Income ComboBox changed value
+2024-11-30 12:09:43 - INFO :: Income Tree updated
+2024-11-30 12:09:48 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:09:59 - INFO :: New income dialog closed
+2024-11-30 12:10:04 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:10:06 - INFO :: New income dialog closed
+2024-11-30 12:10:09 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:10:18 - INFO :: New income dialog closed
+2024-11-30 12:10:23 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:10:24 - INFO :: New income dialog closed
+2024-11-30 12:11:16 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:11:17 - INFO :: New income dialog closed
+2024-11-30 12:11:18 - INFO :: Clicked - NOVI UNOS
+2024-11-30 12:11:20 - INFO :: New income dialog closed
+2024-11-30 12:11:21 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:11:22 - INFO :: New income dialog closed
+2024-11-30 12:11:26 - INFO :: Clicked - IZMIJENI
+2024-11-30 12:11:30 - INFO :: New income dialog closed
+2024-12-22 15:23:13 - INFO :: Application started!
+2024-12-22 15:23:15 - INFO :: User Interface loaded

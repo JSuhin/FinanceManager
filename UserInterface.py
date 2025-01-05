@@ -224,7 +224,7 @@ class UI(QWidget):
             logging.error("Settings file not given")
 
         # DATABASE CHECK
-        # Check for income table
+        #  for income table
         if table_exists(database_path, "income"):
             logging.info("Income table found in database file")
         else:
@@ -608,7 +608,7 @@ class UI(QWidget):
                 # Amount with LineEdit
                 amount_edit = QLineEdit(str(row[2]))
                 amount_edit.setValidator(
-                    QRegularExpressionValidator(QRegularExpression("\d{1,10}[.]\d\d"), amount_edit))
+                    QRegularExpressionValidator(QRegularExpression('\d{1,10}[.]\d\d'), amount_edit))
 
                 # DateEdit
                 date_edit = QDateEdit()
@@ -1283,8 +1283,8 @@ class SettingsEdit(QDialog):
         self.save_btn.clicked.connect(self.save_settings)
         self.close_btn.clicked.connect(self.click_close)
 
-        self.btn_database.clicked.connect(self.action_db)
-        self.btn_log.clicked.connect(self.action_log)
+        #self.btn_database.clicked.connect(self.action_db)
+        #self.btn_log.clicked.connect(self.action_log)
         self.btn_settings.clicked.connect(self.action_set)
         self.btn_task.clicked.connect(self.action_task)
 

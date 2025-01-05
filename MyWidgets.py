@@ -1,6 +1,3 @@
-"""
-Custom Calendar Widget for Finance Manager v3
-"""
 import colorsys
 import datetime
 import logging
@@ -1094,6 +1091,8 @@ class IzvodControlWidget(QWidget):
         print("Run report number control")
 
 
+
+
 def kn_to_euro(database):
     """Convert currency from HKN to EURO"""
     # Open database
@@ -1127,7 +1126,8 @@ if __name__ == '__main__':
     # print(token)
 
     #widget = LinksWidget()
-    widget = IzvodControlWidget(database="bin/GKSokol_2024.sqlite")
+    #widget = ApiWidget()
+    #widget = IzvodControlWidget(database="bin/GKSokol_2024.sqlite")
     # widget = StatisticsWidget(database="bin/GKSokol.sqlite")
     # widget = BillEditor(database="bin/GKSokol.sqlite")
     # widget = BackUpRetriveWindow(None)

@@ -30,7 +30,7 @@ if __name__ == '__main__':
     logging.basicConfig(filename=FILE, level=LEVEL, format=FORMAT, datefmt="%Y-%m-%d %H:%M:%S")
 
     # Logging unhandled errors to file not console - commented for debugging
-    sys.excepthook = excepthook
+    #sys.excepthook = excepthook
 
     # Run app
     logging.info("Application started!")
@@ -40,18 +40,19 @@ if __name__ == '__main__':
 
 # Bugs
 # TODO: Error report dialog
-# TODO: Backup files on Dropbox - use refresh token
-# (https://stackoverflow.com/questions/70641660/how-do-you-get-and-use-a-refresh-token-for-the-dropbox-api-python-3-x)
 # TODO: Help Window - write some help (Croatian) in file
 # TODO: Overload F2 on io_table - F2 should open codes
 # TODO: Code too slow... speed up
 
 # New Features
+# TODO: Create RestAPI using flask package
+# TODO: Ispis ugovora za suce - pojedinačnog i iz tablice
 # TODO: Kontrola broja izvoda po godinama - novi widget (godina, ukupni broj izvoda) -> listu nedostajućih izvoda
 # TODO: Bug report window
 # TODO: Baza podataka za izdavanje računa - pravne i/ili fizičke osobe
 # TODO: Pretraživač računa (Serach)
 # TODO: Izvoz računa u PDF format
+# TODO: Obrazac za izradu računa
 # TODO: Inicijalizacija aplikacije - provjera dostupnih datoteka i direktorija - IMPORTANT
 # TODO: Financijski plan
 # TODO: Evidencija zaposlenih - vrsta ugovora, trajanje, potvrda o ne kažnjavanju, uvjerenje o obrazovanju
