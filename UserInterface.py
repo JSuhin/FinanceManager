@@ -1285,8 +1285,8 @@ class SettingsEdit(QDialog):
 
         #self.btn_database.clicked.connect(self.action_db)
         #self.btn_log.clicked.connect(self.action_log)
-        self.btn_settings.clicked.connect(self.action_set)
-        self.btn_task.clicked.connect(self.action_task)
+        #self.btn_settings.clicked.connect(self.action_set)
+        #self.btn_task.clicked.connect(self.action_task)
 
         # Load settings
         self.load_settings_from_db()
@@ -1382,48 +1382,6 @@ class SettingsEdit(QDialog):
         filepath = QFileDialog.getOpenFileName(self, "Open file", ".", "Log file (*.txt *.dat)")
         if filepath[0] != "":
             path.setText(filepath[0])
-
-    # Button Actions
-    def action_db(self):
-        """Download database file from Dropbox"""
-
-        try:
-            download_database("/database.sqlite", "backup/backup_database.db", token)
-            popup_message("Database retrived from Dropbox").exec()
-            logging.info("Database retrived from Dropbox")
-        except ConnectionError:
-            popup_message("Error occured while retriving database file from Dropbox. Check internet connection!").exec()
-            logging.info("Error occured while retriving database file from Dropbox. Check internet connection!")
-
-    def action_log(self):
-        """Download log file from Dropbox"""
-        try:
-            download_database("/log.txt", "backup/backup_log.txt", token)
-            popup_message("Log file retrived from Dropbox").exec()
-            logging.info("Log file retrived from Dropbox")
-        except ConnectionError:
-            popup_message("Error occured while retriving log file from Dropbox. Check internet connection!").exec()
-            logging.info("Error occured while retriving log file from Dropbox. Check internet connection!")
-
-    def action_set(self):
-        """Download settings file from Dropbox"""
-        try:
-            download_database("/settings.db", "backup/backup_settings.db", token)
-            popup_message("Settings file retrived from Dropbox").exec()
-            logging.info("Settings file retrived from Dropbox")
-        except ConnectionError:
-            popup_message("Error occured while retriving settings file from Dropbox. Check internet connection!").exec()
-            logging.info("Error occured while retriving settings file from Dropbox. Check internet connection!")
-
-    def action_task(self):
-        """Download Task list from Dropbox"""
-        try:
-            download_database("/taskList.db", "backup/backup_taskList.db", token)
-            popup_message("Task list retrived from Dropbox").exec()
-            logging.info("Task list retrived from Dropbox")
-        except ConnectionError:
-            popup_message("Error occured while retriving Task list from Dropbox. Check internet connection!").exec()
-            logging.info("Error occured while retriving Task list file from Dropbox. Check internet connection!")
 
     def click_close(self):
         """Close dialog"""

@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_file
 from PyQt6.QtCore import QThread, QObject, pyqtSignal, Qt
 from PyQt6.QtWidgets import QWidget, QApplication
 from PyQt6.uic import loadUi
-from PyQt6.QtGui import QTextCursor
+from PyQt6.QtGui import QTextCursor, QIcon
 import sys
 import socket
 
@@ -115,6 +115,9 @@ class ApiWidget(QWidget):
         # Load interface
         super(ApiWidget, self).__init__()
         loadUi("ui/api.ui", self)
+
+        # Add Icon
+        self.setWindowIcon(QIcon('images/fm_api_logo.png'))
 
         self.textEditStatus.setReadOnly(True)
 

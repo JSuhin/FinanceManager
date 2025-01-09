@@ -10901,3 +10901,87 @@ sqlite3.OperationalError: no such table: bills
 2024-11-30 12:11:30 - INFO :: New income dialog closed
 2024-12-22 15:23:13 - INFO :: Application started!
 2024-12-22 15:23:15 - INFO :: User Interface loaded
+2025-01-05 16:10:59 - INFO :: Application started!
+2025-01-05 16:11:02 - INFO :: User Interface loaded
+2025-01-05 16:11:04 - INFO :: Internet Access
+2025-01-05 16:11:04 - INFO :: max() iterable argument is empty
+2025-01-05 16:11:04 - INFO :: Setting ylim to 2000
+2025-01-05 16:11:56 - INFO :: Clicked - NOVI UNOS
+2025-01-06 17:48:23 - INFO :: Application started!
+2025-01-06 17:48:25 - INFO :: User Interface loaded
+2025-01-06 17:48:27 - INFO :: Internet Access
+2025-01-06 17:48:28 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:28 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:53 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:53 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:53 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:53 - INFO :: Income Tree updated
+2025-01-06 17:48:54 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:54 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:54 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:54 - INFO :: Income Tree updated
+2025-01-06 17:48:54 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:54 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:54 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:54 - INFO :: Income Tree updated
+2025-01-06 17:48:54 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:54 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:54 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:54 - INFO :: Income Tree updated
+2025-01-06 17:48:55 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:55 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:55 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:55 - INFO :: Income Tree updated
+2025-01-06 17:48:55 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:55 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:55 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:55 - INFO :: Income Tree updated
+2025-01-06 17:48:55 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:55 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:55 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:55 - INFO :: Income Tree updated
+2025-01-06 17:48:55 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:55 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:55 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:55 - INFO :: Income Tree updated
+2025-01-06 17:48:55 - INFO :: Income ComboBox changed value
+2025-01-06 17:48:55 - INFO :: max() iterable argument is empty
+2025-01-06 17:48:55 - INFO :: Setting ylim to 2000
+2025-01-06 17:48:55 - INFO :: Income Tree updated
+2025-01-06 17:51:25 - INFO :: Login - User type: Admin
+2025-01-06 17:52:01 - INFO :: Settings saved to database
+2025-01-06 17:52:01 - INFO :: Reboot Finance Manager
+2025-01-06 17:52:02 - INFO :: User Interface loaded
+2025-01-06 17:52:04 - INFO :: Internet Access
+2025-01-06 17:52:04 - INFO :: max() iterable argument is empty
+2025-01-06 17:52:04 - INFO :: Setting ylim to 2000
+2025-01-06 17:53:14 - INFO :: Application started!
+2025-01-06 17:53:15 - INFO :: User Interface loaded
+2025-01-06 17:53:17 - INFO :: Internet Access
+2025-01-06 17:53:18 - INFO :: max() iterable argument is empty
+2025-01-06 17:53:18 - INFO :: Setting ylim to 2000
+2025-01-06 17:53:33 - INFO :: Login - User type: Admin
+2025-01-06 17:54:00 - INFO :: Application started!
+2025-01-06 17:54:02 - INFO :: User Interface loaded
+2025-01-06 17:54:04 - INFO :: Internet Access
+2025-01-06 17:54:04 - INFO :: max() iterable argument is empty
+2025-01-06 17:54:04 - INFO :: Setting ylim to 2000
+2025-01-06 17:54:12 - INFO :: Login - User type: Admin
+2025-01-06 17:54:17 - INFO :: Settings saved to database
+2025-01-06 17:54:17 - INFO :: Reboot Finance Manager
+2025-01-06 17:54:19 - INFO :: User Interface loaded
+2025-01-06 17:54:20 - INFO :: Internet Access
+2025-01-06 17:54:21 - INFO :: max() iterable argument is empty
+2025-01-06 17:54:21 - INFO :: Setting ylim to 2000
+2025-01-06 17:54:55 - INFO :: Application started!
+2025-01-06 17:54:57 - INFO :: User Interface loaded
+2025-01-06 17:54:59 - INFO :: Internet Access
+2025-01-06 17:54:59 - INFO :: max() iterable argument is empty
+2025-01-06 17:54:59 - INFO :: Setting ylim to 2000
+2025-01-06 17:55:21 - INFO :: Login - User type: Admin
+2025-01-06 17:56:11 - INFO :: Settings saved to database
+2025-01-06 17:56:11 - INFO :: Reboot Finance Manager
+2025-01-06 17:56:12 - INFO :: User Interface loaded
+2025-01-06 17:56:14 - INFO :: Internet Access
+2025-01-06 17:56:14 - INFO :: max() iterable argument is empty
+2025-01-06 17:56:14 - INFO :: Setting ylim to 2000

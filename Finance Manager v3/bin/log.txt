@@ -8823,3 +8823,5 @@ AttributeError: 'UI' object has no attribute 'btn_hide'
 2023-12-20 12:14:35 - INFO :: No Internet Access
 2023-12-20 12:27:58 - INFO :: Income ComboBox changed value
 2023-12-20 12:27:58 - INFO :: Income Tree updated
+2025-01-06 17:56:40 - INFO :: Application started!
+2025-01-06 17:56:41 - INFO :: User Interface loaded

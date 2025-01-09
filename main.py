@@ -48,6 +48,7 @@ if __name__ == '__main__':
 # TODO: Code too slow... speed up
 
 # New Features
+# TODO: Upis i pračenje putnih naloga
 # TODO: Kontrola broja izvoda po godinama - novi widget (godina, ukupni broj izvoda) -> listu nedostajućih izvoda
 # TODO: Bug report window
 # TODO: Baza podataka za izdavanje računa - pravne i/ili fizičke osobe
